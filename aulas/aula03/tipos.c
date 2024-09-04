@@ -2,12 +2,13 @@
 #include <limits.h>
 #include <float.h>
 
-int main() {
+int main()
+{
   // char 'a', 'v', ' '
   // int -5, 0, 5
   // float -5.5f, 0.0, 5.5f
   // double -5.5, 0.0, 5.5 - usado para números grandes como o 3,14...
-  // void - sem valor 
+  // void - sem valor
 
   printf("O tamanho do char na memória é %lu byte(s)\n", sizeof(char));
   printf("O tamanho do int na memória é %lu byte(s)\n", sizeof(int));
@@ -37,8 +38,8 @@ int main() {
 
   printf("A faixa de valores do unsigned char vai de %i até %i\n", 0, UCHAR_MAX);
   printf("A faixa de valores do unsigned short vai de %i até %i\n", 0, USHRT_MAX);
-  printf("A faixa de valores do unsigned int vai de %i até %lu\n", 0, UINT_MAX);
+  // printf("A faixa de valores do unsigned int vai de %i até %lu\n", 0, UINT_MAX);
   printf("A faixa de valores do unsigned long vai de %i até %lu\n", 0, ULONG_MAX);
-  
+
   return 0;
 }
